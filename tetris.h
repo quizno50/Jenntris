@@ -46,6 +46,6 @@ extern void rotateLeft(GAMEDATA *thisGame);
 extern void rotateRight(GAMEDATA *thisGame);
 extern void checkRows(GAMEDATA *thisGame);
 
-PIECE SHAPES[7][4];
+extern PIECE SHAPES[7][4];
 
 #endif

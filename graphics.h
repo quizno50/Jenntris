@@ -31,6 +31,6 @@ extern void drawChar(char inChar, SDL_Rect *destination);
 extern void scoreDraw(int);
 extern void linesDraw(int lines);
 
-CHARACTER CHARS[10];
+extern CHARACTER CHARS[10];
 
 #endif

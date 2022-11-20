@@ -129,6 +129,8 @@ void drawGame(GAMEDATA *thisGame)
 	linesDraw(thisGame->lines);
 }
 
+CHARACTER CHARS[10];
+
 void makeChars()
 {
 	CHARS[0].points[0][0] = 37; CHARS[0].points[1][0] = 4;

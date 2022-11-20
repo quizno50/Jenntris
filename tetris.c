@@ -72,6 +72,8 @@ void checkRows(GAMEDATA *thisGame)
 	thisGame->score += multiplier * multiplier;
 }
 
+PIECE SHAPES[7][4];
+
 void makeShapes()
 {
 	SHAPES[0][0].Rx[0] = 0; SHAPES[0][0].Ry[0] = 0; //##
